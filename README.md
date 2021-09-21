@@ -4,6 +4,12 @@ This repository is a work in progress.
 
 An example mod for Enigma Engine which implements parts of the popular "Full-Ass Tricky Mod" game mod. Please use this as a working example to create your own mods.
 
+## Demo
+
+Watch a demo here:
+
+https://www.youtube.com/watch?v=1A5ChNEf5F4
+
 ## Features
 
 This mod features the following:
