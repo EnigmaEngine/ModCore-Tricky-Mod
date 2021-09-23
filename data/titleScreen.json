@@ -1,0 +1,237 @@
+{
+  "_comment": ["Make sure to adjust beatDropMs and bpm to your liking."],
+  "beatDropMs": 13400,
+  "bpm": 139,
+  "creditsBackground": "#000000",
+  "gf": {
+    "x": 295,
+    "y": 50,
+    "scale": 0.6
+  },
+  "logo": {
+    "_comment": "The logo moves over time. It takes <duration> seconds to rotate, and moves from -<angle> to +<angle>.",
+    "x": -150,
+    "y": -100,
+    "scale": 0.5,
+    "angle": 0,
+    "duration": 1
+  },
+  "titleBackground": "#530101",
+  "credits": [
+    {
+      "_comment": "'clearText' removes all existing text, if any.",
+      "action": "clearText"
+    },
+    {
+      "action": "addText",
+      "values": ["ninjamuffin99", "phantomArcade", "kawaisprite", "evilsk8er"]
+    },
+    {
+      "_comment": "'wait' just does nothing for a beat.",
+      "action": "wait"
+    },
+    {
+      "_comment": "'wait' just does nothing for a beat.",
+      "action": "wait"
+    },
+    {
+      "_comment": "'wait' just does nothing for a beat.",
+      "action": "wait"
+    },
+    [
+      {
+        "_comment": "'clearText' removes all existing text, if any.",
+        "action": "clearText"
+      },
+      {
+        "_comment": "'setTextOffset' offsets any text that will be added. Remember to set to 0 again later.",
+        "action": "setTextOffset",
+        "value": -135
+      },
+      {
+        "action": "addText",
+        "values": ["KadeDev"]
+      }
+    ],
+    {
+      "action": "addText",
+      "values": ["Banbuds"]
+    },
+    {
+      "action": "addText",
+      "values": ["Cval"]
+    },
+    {
+      "action": "addText",
+      "values": ["Rozebud"]
+    },
+    {
+      "_comment": "'setGraphic' displays a graphic on screen.",
+      "action": "setGraphic",
+      "value": "clown/ThePalsV2"
+    },
+    [
+      {
+        "_comment": "You can do multiple actions in one step, by making an array element.",
+        "action": "clearText"
+      },
+      {
+        "_comment": "'clearGraphic' hides the graphic added by setGraphic.",
+        "action": "clearGraphic"
+      },
+      {
+        "_comment": "Actions are performed in order so don't put clearText last.",
+        "action": "addText",
+        "values": ["With help from"]
+      }
+    ],
+    {
+      "action": "addText",
+      "values": ["MORO"]
+    },
+    {
+      "action": "addText",
+      "values": ["YingYang"]
+    },
+    {
+      "action": "addText",
+      "values": ["Jads"]
+    },
+    {
+      "action": "setGraphic",
+      "value": "clown/TheBackupMen"
+    },
+    [
+      {
+        "action": "clearText"
+      },
+      {
+        "action": "clearGraphic"
+      },
+      {
+        "action": "setTextOffset",
+        "value": 0
+      },
+      {
+        "action": "addText",
+        "values": ["Newgrounds"]
+      }
+    ],
+    [
+      {
+        "action": "addText",
+        "values": ["is pog"]
+      },
+      {
+        "action": "setGraphic",
+        "value": "clown/newgrounds_logo"
+      }
+    ],
+    [
+      {
+        "action": "clearGraphic"
+      },
+      {
+        "action": "clearText"
+      },
+      {
+        "action": "addWackyText",
+        "values": [0]
+      }
+    ],
+    {
+      "action": "addWackyText",
+      "values": [1]
+    },
+    [
+      {
+        "action": "reloadWackyText"
+      },
+      {
+        "action": "clearText"
+      },
+      {
+        "action": "addWackyText",
+        "values": [0]
+      }
+    ],
+    {
+      "action": "addWackyText",
+      "values": [1]
+    },
+    [
+      {
+        "action": "reloadWackyText"
+      },
+      {
+        "action": "clearText"
+      },
+      {
+        "action": "addWackyText",
+        "values": [0]
+      }
+    ],
+    {
+      "action": "addWackyText",
+      "values": [1]
+    },
+    [
+      {
+        "action": "reloadWackyText"
+      },
+      {
+        "action": "clearText"
+      },
+      {
+        "action": "addWackyText",
+        "values": [0]
+      }
+    ],
+    {
+      "action": "addWackyText",
+      "values": [1]
+    },
+    [
+      {
+        "action": "reloadWackyText"
+      },
+      {
+        "action": "clearText"
+      },
+      {
+        "action": "addWackyText",
+        "values": [0]
+      }
+    ],
+    {
+      "action": "addWackyText",
+      "values": [1]
+    },
+    [
+      {
+        "action": "clearText"
+      },
+      {
+        "action": "addText",
+        "values": ["chicken dance remix"]
+      }
+    ],
+    {
+      "action": "addText",
+      "values": ["by Tsuraran"]
+    },
+    [
+      {
+        "action": "clearText"
+      },
+      {
+        "action": "addText",
+        "values": ["the drop"]
+      }
+    ],
+    {
+      "action": "addText",
+      "values": ["or smth lol"]
+    }
+  ]
+}
