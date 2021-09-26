@@ -14,6 +14,7 @@ https://www.youtube.com/watch?v=1A5ChNEf5F4
 
 This mod features the following:
 
+* Custom title sequence and intro credits.
 * Adds Tricky (Mask) as a usable Dad character.
 * Adds Improbable Outset as a song to Free Play (currently uses the default stage).
 
